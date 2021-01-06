@@ -9,11 +9,12 @@
   },
   "dependencies": {
     "next": "10.0.4",
-    "normalize.css": "^8.0.1",
+    "postcss": "^8.2.2",
     "preact": "^10.5.9",
     "preact-render-to-string": "^5.1.12",
     "react": "npm:@preact/compat",
-    "react-dom": "npm:@preact/compat"
+    "react-dom": "npm:@preact/compat",
+    "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
     "next-plugin-preact": "^3.0.3"
