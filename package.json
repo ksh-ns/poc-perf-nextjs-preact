@@ -10,7 +10,12 @@
   "dependencies": {
     "next": "10.0.4",
     "normalize.css": "^8.0.1",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "preact": "^10.5.9",
+    "preact-render-to-string": "^5.1.12",
+    "react": "npm:@preact/compat",
+    "react-dom": "npm:@preact/compat"
+  },
+  "devDependencies": {
+    "next-plugin-preact": "^3.0.3"
   }
 }
