@@ -8,9 +8,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header>HEADER</header>
+      <header class="container mx-auto px-4 py-2">HEADER</header>
 
-      <main>
+      <main class="container mx-auto p-4">
         <h1>
           Welcome to <a href="https://nextjs.org">Next.js + Preact!</a>
         </h1>
@@ -29,19 +29,40 @@ export default function Home() {
           condimentum posuere rhoncus integer himenaeos, class sit dictum
           volutpat blandit lacinia tristique.
         </p>
+
+        <p>
+          <a
+            href="/tailwindcss"
+            className="underline text-indigo-600 hover:text-indigo-500"
+          >
+            To Sample Page
+          </a>
+        </p>
         <ul>
           <li>
-            <a href="#" onClick={() => console.log("link 1")}>
+            <a
+              href="#"
+              onClick={() => console.log("link 1")}
+              class="underline text-indigo-600 hover:text-indigo-500"
+            >
               link 1
             </a>
           </li>
           <li>
-            <a href="#" onClick={() => console.log("link 2")}>
+            <a
+              href="#"
+              onClick={() => console.log("link 2")}
+              class="underline text-indigo-600 hover:text-indigo-500"
+            >
               link 2
             </a>
           </li>
           <li>
-            <a href="#" onClick={() => console.log("link 3")}>
+            <a
+              href="#"
+              onClick={() => console.log("link 3")}
+              class="underline text-indigo-600 hover:text-indigo-500"
+            >
               link 3
             </a>
           </li>
@@ -65,17 +86,29 @@ export default function Home() {
         </p>
         <ul>
           <li>
-            <button type="button" onClick={() => console.log("button 1")}>
+            <button
+              type="button"
+              onClick={() => console.log("button 1")}
+              class="m-1 px-2 py-1 border border-gray-300 rounded hover:bg-gray-50"
+            >
               button 1
             </button>
           </li>
           <li>
-            <button type="button" onClick={() => console.log("button 2")}>
+            <button
+              type="button"
+              onClick={() => console.log("button 2")}
+              class="m-1 px-2 py-1 border border-gray-300 rounded hover:bg-gray-50"
+            >
               button 2
             </button>
           </li>
           <li>
-            <button type="button" onClick={() => console.log("button 3")}>
+            <button
+              type="button"
+              onClick={() => console.log("button 3")}
+              class="m-1 px-2 py-1 border border-gray-300 rounded hover:bg-gray-50"
+            >
               button 3
             </button>
           </li>
@@ -107,7 +140,7 @@ export default function Home() {
         </p>
       </main>
 
-      <footer>FOOTER</footer>
+      <footer class="container mx-auto px-4 py-2">FOOTER</footer>
     </>
   );
 }
